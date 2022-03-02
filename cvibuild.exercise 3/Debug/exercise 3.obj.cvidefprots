@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ExitFunc]
+Class="Function"
+Prototype="int ExitFunc(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Multiply]
+Class="Function"
+Prototype="int Multiply(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Clear]
+Class="Function"
+Prototype="int Clear(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
